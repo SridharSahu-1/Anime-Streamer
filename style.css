@@ -157,6 +157,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 50px;
 }
 
 .movie-types .container h5 a {
@@ -184,7 +185,7 @@ body {
 }
 
 .movie-types .container .wrapper .movie{
-    width: 224px;
+    width: 214px;
     height: 336px;
     background-color: #3d3c44;
     border-radius: 10px;
@@ -193,6 +194,7 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
+    padding: 5px 5px 5px 5px;
 }
 .movie-types .container .wrapper .movie::before{
     content: '';
@@ -346,6 +348,7 @@ body {
     }
     .movie-types .container .wrapper  {
         justify-content: space-around;
+        
     }
     .movie-types .container .wrapper .movie:nth-child(3) {
         display: none;
@@ -387,7 +390,7 @@ body {
         justify-content: space-between!important;
     }
     .movie-types .container .wrapper .movie {
-        width: 210px;
+        width: 200px;
         height: 320px;
     }
     .movie-types .container .wrapper .movie:nth-child(3) {
@@ -434,7 +437,7 @@ body {
         height: 380px;
     }
     .movie-types .container .wrapper .movie {
-        width: 190px;
+        width: 170px;
         height: 300px;
     }
     .movie-types .container .wrapper .movie:nth-child(3) {
@@ -481,6 +484,7 @@ body {
     }
     .movie-types .container .wrapper  {
         justify-content: space-around;
+        
     }
     .movie-types {
         height: 330px;
@@ -489,7 +493,7 @@ body {
         font-size: 20px;
     }
     .movie-types .container .wrapper .movie {
-        width: 170px;
+        width: 150px;
         height: 275px;
     }
     .movie-types .container .wrapper .movie:nth-child(3) {
@@ -498,6 +502,7 @@ body {
 
     .footer .container {
         width: 350px;
+        
     }
   }
 
@@ -544,7 +549,7 @@ body {
         font-size: 18px;
     }
     .movie-types .container .wrapper .movie {
-        width: 155px;
+        width: 135px;
         height: 245px;
     }
     .movie-types .container .wrapper .movie:nth-child(3) {
@@ -603,7 +608,7 @@ body {
 
 input, textarea
 {
-    color: inherit;
+    color: rgb(141, 150, 151);
     width: 100%;
     background-color: transparent;
     border: none;
@@ -664,7 +669,7 @@ textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label
     font-family: inherit;
     font-size: 18px;
     background-color: black;
-    color: inherit;
+    color: rgb(141, 150, 151);
     box-shadow: 0 0 10px #212121;
 }
 
@@ -800,8 +805,32 @@ footer:hover
 
 
 
+.end-text{
+    display: block;
+    text-align: center;
+}
 
 
+.end-text h3 {
+    font-size: 20px;
+    /* padding: 4px 5px 5px 5px; */
+    padding-top: 40px;
+    color: rgb(186, 183, 178);
+}
 
+.end-text h4 {
+    font-size: 19px;
+    color: rgb(186, 183, 178);
+}
 
+.btn-secondary{
+    color: rgb(186,183,178);
+    background-color: rgb(10, 3, 3);
+    border-radius: 10px;
+}
 
+.movie-types .container .wrapper .movie{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
